@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Symptom Checker</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="header"><h1>Which condition do your symptoms correlate the most to?</h1>
+            <p>Let's compare your symptoms to the most common ones of COVID-19, the common cold, the flu and allergies.</p>
+            </div>
+            
+            <form  id="form1">
+            <p>Have you had a fever in the past week?</p>
+            <label><input type="radio" name="fever" id="feverYes" value="fever" />Yes</label>
+            <label><input type="radio" name="fever" id="feverNo" value="null" />No</label>
+            
+            <p>Have you been experiencing a dry cough?</p>
+            <label><input type="radio" name="cough" id="coughYes" value="cough" />Yes</label>
+            <label><input type="radio" name="cough" id="coughNO" value="null" />No</label>
+            
+            
+            <p>Do you ever feel short of breath?</p>
+            <label><input type="radio" name="breath" id="shortBreathYes" value="breath" />Yes</label>
+            <label><input type="radio" name="breath" id="shortBreathNo" value="null" />No</label>
+            
+            <p>Have you been having consistent headaches and/or migraines ?</p>
+            <label><input type="radio" name="headache" id="headacheYes" value="headache" />Yes</label>
+            <label><input type="radio" name="headache" id="headacheNO" value="null" />No</label>
+            
+            
+            <p>Are you currently feeling aches and pains in your body?</p>
+            <label><input type="radio" name="pain" id="painYes" value="pain" />Yes</label>
+            <label><input type="radio" name="pain" id="painNo" value="null" />No</label>
+            
+            
+            <p>Do you suffer from a sore throat?</p>
+            <label><input type="radio" name="throat" id="throatYes" value="throat" />Yes</label>
+            <label><input type="radio" name="throat" id="throatNo" value="null" />No</label>
+            
+            
+            <p>Have you felt fatigued throughout the day?</p>
+            <label><input type="radio" name="fatigue" id="fatigueYes" value="fatigue" />Yes</label>
+            <label><input type="radio" name="fatigue" id="fatigueNO" value="null" />No</label>
+            
+            
+            <p>Are you experiencing a runny/stuffy nose?</p>
+            <label><input type="radio" name="runny" id="runnyYes" value="runny" />Yes</label>
+            <label><input type="radio" name="runny" id="runnyNo" value="null" />No</label>
+            
+            
+            <p>Have you been sneezing frequently?</p>
+            <label><input type="radio" name="sneeze" id="sneezeYes" value="sneeze" />Yes</label>
+            <label><input type="radio" name="sneeze" id="sneezeNo" value="null" />No</label>
+            
+            
+            <button type="submit" value="Submit">Submit</button>
+            </form>
+            
+            <p id="answer"></p>
+            <p id="answer2"></p>
+            <p id="answer3"></p>
+            <p id="answer4"></p>
+            
+            </div>
+        <script src="app.js"></script>
+    </body>
+</html>
