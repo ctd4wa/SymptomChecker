@@ -1,5 +1,5 @@
 body {
-  background-color: #014bb1;
+  background-color: #052d66;
   font-family: Helvetica;
   }
   
@@ -25,8 +25,8 @@ body {
   display: inline-block;
   }
   
-  button {
+  .button {
   display: block;
   margin-top: 20px;
-  
+  background-color: #114fa7;
   }
